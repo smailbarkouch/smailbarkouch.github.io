@@ -1,0 +1,62 @@
+baseURL = "barkouch.me"
+languageCode = "en-us"
+title = "Smail Barkouch"
+theme = "PaperMod"
+paginate = 5
+
+[params]
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = false
+
+[params.profileMode]
+enabled = true
+title = "Smail Barkouch"
+subtitle = "CS student @ **Rutgers University**, open source enthusiast, and co-xunder of **[Lockbook](https://lockbook.net)**."
+imageUrl = "img/profile.png"
+imageTitle = "smail's picture"
+imageWidth = 150
+imageHeight = 150
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/smailbarkouch"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/smailbarkouch"
+
+[[params.socialIcons]]
+name = "spotify"
+url = "https://open.spotify.com/user/noqs1jnz7jvjr13ycyg154qqh?si=0663cbabfc8c49ca"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:smailbarkouch1@gmail.com"
+
+[menu]
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+pageRef = '/about'
+weight = 1
+
+[[menu.main]]
+identifier = 'experience'
+name = 'Experience'
+pageRef = '/experience'
+weight = 2
+
+[[menu.main]]
+identifier = 'projects'
+name = 'Projects'
+pageRef = '/projects'
+weight = 3
+
+[[menu.main]]
+identifier = 'resume'
+name = 'Resume'
+url = "https://docs.google.com/document/d/1FDdYfXmVgEcA1AaUBT8jHoipQgpUrWsJPVgY9ALaGAY/edit?usp=sharing"
+weight = 4
