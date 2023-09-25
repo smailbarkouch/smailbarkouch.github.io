@@ -14,7 +14,7 @@ ShowWordCount = false
 [params.profileMode]
 enabled = true
 title = "Smail Barkouch"
-subtitle = "CS student @ **Rutgers University**, open source enthusiast, and co-xunder of **[Lockbook](https://lockbook.net)**."
+subtitle = "CS student @ **Rutgers University**, open source enthusiast, and co-founder of **[Lockbook](https://lockbook.net)**."
 imageUrl = "img/profile.png"
 imageTitle = "smail's picture"
 imageWidth = 150
