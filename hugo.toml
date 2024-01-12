@@ -44,18 +44,6 @@ pageRef = '/about'
 weight = 1
 
 [[menu.main]]
-identifier = 'experience'
-name = 'Experience'
-pageRef = '/experience'
-weight = 2
-
-[[menu.main]]
-identifier = 'projects'
-name = 'Projects'
-pageRef = '/projects'
-weight = 3
-
-[[menu.main]]
 identifier = 'blog'
 name = 'Blog'
 pageRef = '/blog/'
