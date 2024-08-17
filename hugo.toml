@@ -1,56 +1,39 @@
 baseURL = "barkouch.me"
 languageCode = "en-us"
 title = "Smail Barkouch"
-theme = "PaperMod"
-paginate = 5
+theme = "typo"
 
 [params]
-ShowReadingTime = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowWordCount = false
+homeIntroTitle = "Hi! 👋"
+homeIntroContent = """
+I'm a student at Rutgers University, majoring in Computer Science and set to graduate in December 2024. I currently work as a founding engineer at [Lockbook](https://lockbook.net), an [open-source](https://github.com/lockbook/lockbook) and private note-taking platform.
 
-[params.profileMode]
-enabled = true
-title = "Smail Barkouch"
-subtitle = "CS student @ **Rutgers University**, and founding software engineer at **[Lockbook](https://lockbook.net)**."
-imageUrl = "img/profile.png"
-imageTitle = "smail's picture"
-imageWidth = 150
-imageHeight = 150
 
-[[params.socialIcons]]
+"""
+
+homeCollectionTitle = 'Blog'
+homeCollection = 'blog'
+
+[[params.social]]
 name = "github"
 url = "https://github.com/smailbarkouch"
 
-[[params.socialIcons]]
+[[params.social]]
 name = "linkedin"
 url = "https://linkedin.com/in/smailbarkouch"
 
-[[params.socialIcons]]
+[[params.social]]
 name = "spotify"
 url = "https://open.spotify.com/user/noqs1jnz7jvjr13ycyg154qqh?si=0663cbabfc8c49ca"
 
-[[params.socialIcons]]
+[[params.social]]
 name = "email"
 url = "mailto:smail@barkouch.me"
 
-[menu]
-[[menu.main]]
-identifier = 'about'
-name = 'About'
-pageRef = '/about'
-weight = 1
+[[params.menu]]
+name = "blog"
+url = "/blog"
 
-[[menu.main]]
-identifier = 'blog'
-name = 'Blog'
-pageRef = '/blog/'
-weight = 4
-
-[[menu.main]]
-identifier = 'resume'
-name = 'Resume'
+[[params.menu]]
+name = "resume"
 url = "https://drive.google.com/file/d/1n0PAURcfm94rL_opW0QIgQjiN9ZQcVde/view?usp=sharing"
-weight = 5

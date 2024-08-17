@@ -1,5 +1,6 @@
 +++
 title = 'second-brain'
+date = '2023-11-12'
 layout = 'second-brain'
 url = '/blog/second-brain'
 ShowReadingTime = true
