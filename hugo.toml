@@ -8,7 +8,6 @@ homeIntroTitle = "Hi! 👋"
 homeIntroContent = """
 I'm a student at Rutgers University, majoring in Computer Science and set to graduate in December 2024. I currently work as a founding engineer at [Lockbook](https://lockbook.net), an [open-source](https://github.com/lockbook/lockbook) and private note-taking platform.
 """
-faviconPath = 'static/'
 
 homeCollectionTitle = 'Blog'
 homeCollection = 'blog'
