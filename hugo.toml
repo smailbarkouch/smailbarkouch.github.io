@@ -6,7 +6,7 @@ theme = "typo"
 [params]
 homeIntroTitle = "Hi! 👋"
 homeIntroContent = """
-I'm a student at Rutgers University (New Brunswick, NJ), majoring in Computer Science and set to graduate in December 2024. I currently work as a founding software engineer at [Lockbook](https://lockbook.net), an [open-source](https://github.com/lockbook/lockbook) and private note-taking platform.
+I'm a student at [Rutgers University](https://www.rutgers.edu/new-brunswick), majoring in Computer Science and set to graduate in December 2024. I currently work as a founding software engineer at [Lockbook](https://lockbook.net), an [open-source](https://github.com/lockbook/lockbook) and private note-taking platform.
 """
 homeCollectionTitle = 'Blog'
 homeCollection = 'blog'
