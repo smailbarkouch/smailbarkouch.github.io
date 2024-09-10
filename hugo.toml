@@ -10,6 +10,7 @@ I'm a student at [Rutgers University](https://www.rutgers.edu/new-brunswick), ma
 """
 homeCollectionTitle = 'Blog'
 homeCollection = 'blog'
+paginationSize = 100
 
 [[params.social]]
 name = "github"

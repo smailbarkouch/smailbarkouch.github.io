@@ -1,13 +1,16 @@
 +++
-title = 'second-brain'
+title = 'Second Brain'
 date = '2023-11-12'
-layout = 'second-brain'
 url = '/blog/second-brain'
 ShowReadingTime = true
 +++
 
-The brain produces a mixture of thoughts and emotions. Often, there's so much going on in our mind, it's hard to think clearly. Like many others, I've found that writing is a great way to gather one's thoughts. When people do this for the events surrounding their lives, it's called a diary or a journal. But you can take it a little step further. 
+In our day to day lives, there is so much we need to keep track of. To the point, at least for me, where its hard to think clearly about what needs to be done. Like many others, I've found that writing is a great way to gather my thoughts. When someone writes about the events surrounding their lives, it's called a journal. But you can take this writing a step further.
 
-You can use your notes for all of life's purposes. Imagine everything you've learned in one place. All your class notes, work notes, and thoughts/wisdom in one place digitally. What you have now is what people have referred to as a **second brain**. In that, it is an extension of your mind that helps you retrieve information in a way that complements your own cognitive processes. These "second brain" applications are often hailed as unique and revolutionary note-taking products, Notion for instance. They provide a way to efficiently organize your notes, and must have a powerful search tool. An important attribute I value in these products is cross-platform support. If I want to use my phone to jot a thought, and decide to do some more serious writing, I should be able to use my laptop.
+When you decide to not only write for journaling purposes, but also to store your notes for school and work, your thoughts and wisdom, what you have is something greater. An archive of sorts some refer to as a __second brain__. Your notes become an extension of your mind, in a way that complements your own cognitive processes. Whenever you need to remember something important, it should be in this book of sorts. I should mention, this book can be either a physical book or digital note-taking service. I work at Lockbook, a note-taking company. We have apps on every platform, are open-source, and have a focus on privacy. A lot of interest in this subject stems from learning to build the best note-taking application.
 
-I digress, this sort of note-taking is powerful. It's all of your life's knowledge at your fingertips. Of course you should know and remember many of the things you put into your notes, but no one can remember everything. Everyone is fallible. When you set up a mechanism to retrieve lost information, a backup storage for the mind, i.e. a second brain, what you have is constant growth. **"Those who forget history are condemned to repeat it" - George Santayana**.
+You never know when you are going to get a jolt of inspiration, so its important that you have access to this second brain anywhere. I personally want to write things on my phone sometimes, and have access to them on my laptop, and Lockbook makes this possible.
+
+This sort of note-taking is powerful. It's all of your life's knowledge at your fingertips. Of course you should know and remember many of the things you put into your notes, but no one can remember everything. Everyone is fallible. When you set up a mechanism to retrieve lost information, a backup storage for the mind, what you have is constant growth. I'll end with a quote:
+
+> Those who cannot remember the past are condemned to repeat it.
