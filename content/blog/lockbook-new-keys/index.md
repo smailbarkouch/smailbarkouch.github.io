@@ -19,8 +19,7 @@ The account key is a critcal part of our [end-to-end encryption scheme](https://
 
 Our current account key has some issues though. It contains unnecessary information, like what server your Lockbook communicates to, and the username. All of which is base64 encoded, resulting a combination of random characters. This isn't necessarily bad, but for someone who might want to write their account key down, it is difficult and error prone. It reminds me of an xkcd comic:
 
-
-![pasted_image_2024-09-10_15-55-12.png](../imports/pasted_image_2024-09-10_15-55-12.png)
+![xkcd-comic-1](xkcd-comic-1.png)
 
 ## Passphrases
 
