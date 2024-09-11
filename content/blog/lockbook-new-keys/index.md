@@ -17,7 +17,7 @@ This key is the only thing you need to access your files on your device. You don
 
 The account key is a critcal part of our [end-to-end encryption scheme](https://en.wikipedia.org/wiki/End-to-end_encryption). This ensures that no one besides you can see your notes, not even us. This account key corresponds to a private key from the [`secp256k1`](https://en.bitcoin.it/wiki/Secp256k1) encryption standard. A user's files are encrypted hierarchically using [`AES`](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), another encryption standard, and the uppermost key is encrypted using the public key corresponding to your private key.  This is called hybrid encryption, and it combines the benefits of both symmetric and asymmetric encryption capabilities. You can read more about it [here](https://en.wikipedia.org/wiki/Hybrid_cryptosystem).
 
-Our current account key has some issues though. It contains unnecessary information, like what server your Lockbook communicates to, and the username. All of which is base64 encoded, resulting a combination of random characters. This isn't necessarily bad, but for someone who might want to write their account key down, it is difficult and error prone. It reminds me of an xkcd comic:
+Our current account key has some issues though. It contains unnecessary information, like what server your Lockbook communicates to, and the username. All of which is base64 encoded, resulting in a combination of random characters. This isn't necessarily bad, but for someone who might want to write their account key down, it is difficult and error prone. It reminds me of an xkcd comic:
 
 ![xkcd-comic-1](xkcd-comic-1.png)
 
@@ -33,11 +33,11 @@ But sometimes users still want a compact key; like for a QR code or for a passwo
 ```
 nvo7SItwXYmoxxzmOCUrNJiw85V8CwJ+SXb8cOHPIlo=
 ```
-So, when you enter your settings, you have two choices. You can export your phrase, or a compact version of your account key. Either will work across all your devices.
+So, when you enter your settings, you have two choices. You can export your phrase or a compact version of your account key. Either will work across all your devices.
 
 ## Migration
 
-Changing private keys are hard. If we just updated our code to use the new keys in the next release, people would have issues logging in. Additionally, user have the old account key saved in password managers, and it would be unacceptable if users couldn't sign in after returning to Lockbook.
+Changing private keys is hard. If we just updated our code to use the new keys in the next release, people would have issues logging in. Additionally, some users may have the old account key saved in password managers, and it would be unacceptable if users couldn't sign in after returning to Lockbook.
 
 As a result, because we take breaking changes very seriously, we decided to support the previous key format indefinitely. Once most users are on the new version, we will switch to using the new key format. Minimizing the risk of someone using a new key with an incompatible app. We'll also communicate this change across all our social media platforms.
 
