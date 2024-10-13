@@ -6,7 +6,7 @@ theme = "typo"
 [params]
 homeIntroTitle = "👋 Hi,"
 homeIntroContent = """
-I'm Smail. I'm graduating from [Rutgers University](https://www.rutgers.edu/new-brunswick) this December and currently work as a Founding Software Engineer at [Lockbook](https://lockbook.net), a private, secure, [open-source](https://github.com/lockbook/lockbook) note-taking platform.
+I'm Smail. I'm graduating from [Rutgers University](https://www.rutgers.edu/new-brunswick) this December and currently work as a Founding Software Engineer at [Lockbook](https://lockbook.net), a private, secure, and [open-source](https://github.com/lockbook/lockbook) note-taking platform.
 """
 homeCollectionTitle = 'Blog'
 homeCollection = 'blog'
