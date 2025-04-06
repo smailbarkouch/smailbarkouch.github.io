@@ -6,7 +6,7 @@ theme = "typo"
 [params]
 homeIntroTitle = "👋 Hi,"
 homeIntroContent = """
-I'm Smail. I currently work as a Founding Software Engineer at [Lockbook](https://lockbook.net), a private, secure, and [open-source](https://github.com/lockbook/lockbook) note-taking platform.
+I'm Smail. I work as a Software Engineer at [Ramp](https://ramp.com).
 """
 homeCollectionTitle = 'Blog'
 homeCollection = 'blog'
